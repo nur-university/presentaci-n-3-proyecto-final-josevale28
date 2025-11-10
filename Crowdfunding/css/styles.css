@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+:root{
+	--container-max: 1200px;
+	--space-1: clamp(6px, 0.8vw, 10px);
+	--space-2: clamp(10px, 1.2vw, 16px);
+	--space-3: clamp(16px, 2vw, 24px);
+	--space-4: clamp(24px, 3vw, 40px);
+	--radius: 10px;
+	--brand-bg: #3dc5ed;
+	--brand-accent: #c4141b;
+  --header-height: 70px; 
+  --nav-height: 50px; 
+	--btn-primary: #3b82f6;
+	--btn-primary-hover: #2563eb;
+}
+
+.main_container{
+	max-width: var(--container-max);
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	min-height: 100dvh;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
