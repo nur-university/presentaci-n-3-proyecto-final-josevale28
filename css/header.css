@@ -1,0 +1,12 @@
+.header{
+	width: 100%;
+	height: var(--header-height);
+	background-color: var(--brand-bg);
+	display: flex;
+	align-items:center;
+	justify-content: flex-end;
+}
+.btn-login{
+	display: flex;
+	margin: 20px;
+}

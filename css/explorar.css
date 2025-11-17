@@ -1,0 +1,17 @@
+.btn-explorar, .btn-login{
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 20px;
+	background-color: var(--btn-primary);
+	color:#ffffff;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background-color .3s;
+}
+
+.btn-explorar:hover, .btn-login:hover{
+	background-color: var(--btn-primary-hover);
+}

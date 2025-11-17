@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto - Crowdfunding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/navegacion.css">
+  <link rel="stylesheet" href="css/proyecto.css">
+  <link rel="stylesheet" href="css/proyectos.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body> 
+  <main class="main_container">
+    <header class="header-proyectos">
+      <div class="logo-header">
+        <img src="images/muñecos-logo.png" alt="Logo Crowdfunding" class="logo-small">
+        <h2 class="logo-text">Crowdfunding</h2>
+      </div>
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Buscar proyectos...">
+      </div>
+      <div class="user-icon" title="Perfil">
+        <a href="login.html"><span class="icon-user">👤</span></a>
+      </div>
+    </header>
+
+    <nav class="nav-proyectos">
+      <ul class="menu-proyectos">
+        <li><a href="#" class="active"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </nav>
+
+    <section class="proyecto-detalle">
+      <div class="detalle-encabezado">
+        <h1 class="detalle-titulo">Iniciativa reforestación</h1>
+        <div class="detalle-meta">
+          <span class="chip">Medio Ambiente</span>
+          <span class="autor">por Ana Pérez</span>
+        </div>
+      </div>
+
+      <div class="detalle-contenido">
+        <div class="detalle-media">
+          <img src="images/proyecto-img.jpg" alt="Imagen del proyecto" class="detalle-imagen"/>
+        </div>
+        <aside class="detalle-panel">
+          <div class="panel-seccion">
+            <h3>Descripción</h3>
+            <p>
+              Esta iniciativa tiene como objetivo plantar 1,000 árboles nativos en la región de
+              Santa Cruz para combatir la deforestación y promover la biodiversidad.
+            </p>
+          </div>
+          <div class="panel-seccion grid-datos">
+            <div>
+              <h4>Meta</h4>
+              <strong>$5,000</strong>
+            </div>
+            <div>
+              <h4>Recaudado</h4>
+              <strong>$3,200</strong>
+              <div class="barra">
+                <span class="progreso" style="width:64%"></span>
+              </div>
+            </div>
+            <div>
+              <h4>Fecha límite</h4>
+              <span>30 de junio</span>
+            </div>
+          </div>
+          <div class="panel-acciones">
+            <button class="btn-secundario">Guardar en favoritos</button>
+            <button class="btn-primario">Donar</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>Derechos reservados Crowdfunding &copy; 2025</p>
+    </footer>
+  </main>
+</body>
+</html>
